@@ -1,0 +1,119 @@
+body {background-color: #11998e;
+}
+
+h1 {
+	color:#244878;
+	font-family: 'Poppins';
+	text-align: center;
+	font-size: 50px;
+}
+
+h2, h3, h4, h5 {
+	color: #244878;
+	font-family: 'Poppins';
+	font-size: 30px;
+	text-align: center;
+	padding-bottom: 0px;
+	margin: 30px;
+	margin-bottom: auto;
+}
+
+p {
+	text-align: center;
+}
+
+
+img{
+	width: 200px;
+	height: 300px;
+	display: flex;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#button{
+	margin: 0 auto;
+	width: 30%;
+	padding: 4px 8px 4px 8px;
+	text-align: center;
+	margin: 0 auto;
+	text-decoration: none;
+	color: whitesmoke;
+	border: 1px solid whitesmoke;
+	background-color: #244878;
+	border-radius: 8px;
+	box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.75);
+}
+
+#button:hover {
+	color: whitesmoke;
+	background-color: #11998e;
+}
+
+div{
+	width: 500px;
+	margin: 0 auto;
+	border: 1px solid;
+	background-color: whitesmoke;
+	margin-bottom:10px;
+	padding: 10px 10px 50px 10px;
+	border-radius: 4px;
+	box-shadow: 0 15px 35px rgba(50, 50, 93, 1.0);
+	display: flex;
+	flex-direction: column;
+	max-width: 600px;
+	min-width: 300px;
+	justify-content: center;
+	text-align: center;
+}
+
+#avatar{
+	width: 35%;
+	height: 35%;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	border-radius: 50%;
+}
+
+#school{
+	width: 450px;
+	height: 250px;
+}
+
+#food{
+	width: 250px;
+	height: 250px;
+}
+
+
+.main-wrapper{
+	text-align: center;
+	display: flex;
+	flex-direction: column;
+}
+
+.fa {
+    text-align: center;
+    text-decoration: none;
+    column-gap: 20px;
+    font-size: 24px;
+    padding: 15px;
+    display: flex;
+}
+
+  .fa-facebook:hover {
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  	color: whitesmoke;
+  }
+
+.fa-instagram:hover {
+	text-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  	color: whitesmoke;
+}
+
+  .list{
+  	list-style: none;
+  	margin: 0;
+  	padding: 0;
+  }
